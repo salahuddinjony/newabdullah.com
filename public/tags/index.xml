@@ -2,133 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Abdullah Al Mamun</title>
-    <link>https://www.newabdullah.com/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Abdullah Al Mamun</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>[newabdullah 2025]</copyright>
     <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.newabdullah.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning</title>
-      <link>https://www.newabdullah.com/tags/deep-learning/</link>
+      <link>//localhost:1313/tags/deep-learning/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/deep-learning/</guid>
+      <guid>//localhost:1313/tags/deep-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Deepfm</title>
-      <link>https://www.newabdullah.com/tags/deepfm/</link>
+      <link>//localhost:1313/tags/deepfm/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/deepfm/</guid>
+      <guid>//localhost:1313/tags/deepfm/</guid>
       <description></description>
     </item>
     <item>
       <title>Din</title>
-      <link>https://www.newabdullah.com/tags/din/</link>
+      <link>//localhost:1313/tags/din/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/din/</guid>
+      <guid>//localhost:1313/tags/din/</guid>
       <description></description>
     </item>
     <item>
       <title>Dlrm</title>
-      <link>https://www.newabdullah.com/tags/dlrm/</link>
+      <link>//localhost:1313/tags/dlrm/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/dlrm/</guid>
+      <guid>//localhost:1313/tags/dlrm/</guid>
       <description></description>
     </item>
     <item>
       <title>Multi-Task Learning</title>
-      <link>https://www.newabdullah.com/tags/multi-task-learning/</link>
+      <link>//localhost:1313/tags/multi-task-learning/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/multi-task-learning/</guid>
+      <guid>//localhost:1313/tags/multi-task-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Neural Collaborative Filtering</title>
-      <link>https://www.newabdullah.com/tags/neural-collaborative-filtering/</link>
+      <link>//localhost:1313/tags/neural-collaborative-filtering/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/neural-collaborative-filtering/</guid>
+      <guid>//localhost:1313/tags/neural-collaborative-filtering/</guid>
       <description></description>
     </item>
     <item>
       <title>Recommendation Systems</title>
-      <link>https://www.newabdullah.com/tags/recommendation-systems/</link>
+      <link>//localhost:1313/tags/recommendation-systems/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/recommendation-systems/</guid>
+      <guid>//localhost:1313/tags/recommendation-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Wide and Deep</title>
-      <link>https://www.newabdullah.com/tags/wide-and-deep/</link>
+      <link>//localhost:1313/tags/wide-and-deep/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/wide-and-deep/</guid>
+      <guid>//localhost:1313/tags/wide-and-deep/</guid>
       <description></description>
     </item>
     <item>
       <title>Factorization Machines</title>
-      <link>https://www.newabdullah.com/tags/factorization-machines/</link>
+      <link>//localhost:1313/tags/factorization-machines/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/factorization-machines/</guid>
+      <guid>//localhost:1313/tags/factorization-machines/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>https://www.newabdullah.com/tags/machine-learning/</link>
+      <link>//localhost:1313/tags/machine-learning/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/machine-learning/</guid>
+      <guid>//localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Xgboost</title>
-      <link>https://www.newabdullah.com/tags/xgboost/</link>
+      <link>//localhost:1313/tags/xgboost/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/xgboost/</guid>
+      <guid>//localhost:1313/tags/xgboost/</guid>
       <description></description>
     </item>
     <item>
-<<<<<<< HEAD
-=======
-      <title>Css</title>
-      <link>https://www.newabdullah.com/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Html</title>
-      <link>https://www.newabdullah.com/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/html/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>https://www.newabdullah.com/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Themes</title>
-      <link>https://www.newabdullah.com/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/themes/</guid>
-      <description></description>
-    </item>
-    <item>
->>>>>>> f27e047d7b6ea20cabf44f29c666bfeb775cbfee
       <title>Code</title>
-      <link>https://www.newabdullah.com/tags/code/</link>
+      <link>//localhost:1313/tags/code/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/code/</guid>
+      <guid>//localhost:1313/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Gist</title>
-      <link>https://www.newabdullah.com/tags/gist/</link>
+      <link>//localhost:1313/tags/gist/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/gist/</guid>
+      <guid>//localhost:1313/tags/gist/</guid>
       <description></description>
     </item>
     <item>
@@ -140,34 +109,24 @@
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://www.newabdullah.com/tags/privacy/</link>
+      <link>//localhost:1313/tags/privacy/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/privacy/</guid>
+      <guid>//localhost:1313/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Shortcodes</title>
-      <link>https://www.newabdullah.com/tags/shortcodes/</link>
+      <link>//localhost:1313/tags/shortcodes/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/shortcodes/</guid>
+      <guid>//localhost:1313/tags/shortcodes/</guid>
       <description></description>
     </item>
     <item>
       <title>Syntax</title>
-      <link>https://www.newabdullah.com/tags/syntax/</link>
+      <link>//localhost:1313/tags/syntax/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/syntax/</guid>
+      <guid>//localhost:1313/tags/syntax/</guid>
       <description></description>
     </item>
-<<<<<<< HEAD
-=======
-    <item>
-      <title>Emoji</title>
-      <link>https://www.newabdullah.com/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.newabdullah.com/tags/emoji/</guid>
-      <description></description>
-    </item>
->>>>>>> f27e047d7b6ea20cabf44f29c666bfeb775cbfee
   </channel>
 </rss>
