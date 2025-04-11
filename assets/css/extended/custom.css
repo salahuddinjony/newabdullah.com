@@ -9,9 +9,111 @@ iframe {
 }
 
 .home-info ul {
-    padding-inline-start: 20px;
+    padding-inline-start:0px;
 }
 
 .entry-cover img {
     border: 1px solid var(--border);
+}
+
+/* Responsive Navigation Menu Styles */
+
+.menu-toggle {
+    display: none;
+    font-size: 36px;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 40px; /* Increased right margin for more spacing */
+    transition: color 0.3s ease;
+}
+
+
+
+#menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    position: relative;
+}
+
+#menu li a {
+    color: var(--primary) !important;
+    padding: 10px 0px; /* Default padding for desktop */
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+
+
+@media (max-width: 768px) {
+    #menu li a:hover {
+        background-color: var(--accent); /* Background color change on hover */
+        color: var(--white); /* Ensure text color changes to white */
+        transform: scale(1.05); /* Slight scaling effect on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover for better effect */
+    }
+    .menu-toggle:hover {
+        color: var(--accent); /* Change color on hover */
+    }
+    .menu-toggle {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+        flex-direction: column;
+        background-color: var(--theme) !important;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        z-index: 99;
+        transform: translateY(-100%); /* Start menu off-screen */
+    }
+
+    #menu.show {
+        display: flex;
+        transform: translateY(0); /* Slide the menu in */
+    }
+
+    #menu li a {
+        color: var(--primary) !important;
+        padding: 8px 20px; /* Decreased top and bottom padding */
+        text-align: center;
+        display: block;
+        font-size: 16px; /* Slightly smaller font for mobile */
+        border-bottom: 1px solid var(--border); /* Optional border for better separation */
+    }
+
+    #menu li:last-child a {
+        border-bottom: none; /* Remove border on the last item */
+    }
+
+    /* Styling for the backdrop (optional) */
+    .backdrop {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 98;
+    }
+
+    #menu.show + .backdrop {
+        display: block;
+    }
 }

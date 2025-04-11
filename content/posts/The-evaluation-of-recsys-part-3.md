@@ -1,6 +1,8 @@
 ---
+author: ["Abdullah Al Mamun"]
 title: "The Evaluation of RecSys - Part 3"
 date: 2025-03-12
+comments: true
 draft: false
 tags: ["recommendation systems", "deep learning", "neural collaborative filtering", "wide and deep", "deepfm", "din", "dlrm", "multi-task learning"]
 categories: ["RecSys Series"]

@@ -1,6 +1,7 @@
 ---
 author: ["Abdullah Al Mamun"]
 title: "The Evaluation of RecSys - Part 2"
+comments: true
 description: " "
 summary: "Sample article showcasing basic code syntax and formatting for HTML elements."
 date: 2025-03-11

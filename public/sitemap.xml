@@ -2,105 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:55363/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:55363/posts/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:55363/posts/resume/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:55363/categories/</loc>
+    <loc>//localhost:49416/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/deep-learning/</loc>
+    <loc>//localhost:49416/categories/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/deepfm/</loc>
+    <loc>//localhost:49416/tags/deep-learning/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/din/</loc>
+    <loc>//localhost:49416/tags/deepfm/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/dlrm/</loc>
+    <loc>//localhost:49416/tags/din/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/multi-task-learning/</loc>
+    <loc>//localhost:49416/tags/dlrm/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/neural-collaborative-filtering/</loc>
+    <loc>//localhost:49416/tags/multi-task-learning/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/recommendation-systems/</loc>
+    <loc>//localhost:49416/tags/neural-collaborative-filtering/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/categories/recsys-series/</loc>
+    <loc>//localhost:49416/posts/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/</loc>
+    <loc>//localhost:49416/tags/recommendation-systems/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/posts/the-evaluation-of-recsys-part-3/</loc>
+    <loc>//localhost:49416/categories/recsys-series/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/wide-and-deep/</loc>
+    <loc>//localhost:49416/tags/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/factorization-machines/</loc>
+    <loc>//localhost:49416/posts/the-evaluation-of-recsys-part-3/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:49416/tags/wide-and-deep/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:49416/tags/factorization-machines/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/machine-learning/</loc>
+    <loc>//localhost:49416/tags/machine-learning/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/series/</loc>
+    <loc>//localhost:49416/series/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/posts/the-evaluation-of-recsys-part2/</loc>
+    <loc>//localhost:49416/posts/the-evaluation-of-recsys-part2/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/series/themes-guide/</loc>
+    <loc>//localhost:49416/series/themes-guide/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/xgboost/</loc>
+    <loc>//localhost:49416/tags/xgboost/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/code/</loc>
+    <loc>//localhost:49416/tags/code/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/posts/code_syntax/</loc>
+    <loc>//localhost:49416/posts/code_syntax/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/gist/</loc>
+    <loc>//localhost:49416/tags/gist/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/markdown/</loc>
+    <loc>//localhost:49416/tags/markdown/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/privacy/</loc>
+    <loc>//localhost:49416/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/posts/rich-content/</loc>
+    <loc>//localhost:49416/posts/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/shortcodes/</loc>
+    <loc>//localhost:49416/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/categories/syntax/</loc>
+    <loc>//localhost:49416/categories/syntax/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/tags/syntax/</loc>
+    <loc>//localhost:49416/tags/syntax/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/categories/themes/</loc>
+    <loc>//localhost:49416/categories/themes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:55363/about/</loc>
+    <loc>//localhost:49416/about/</loc>
   </url><url>
-    <loc>//localhost:55363/gallery/</loc>
+    <loc>//localhost:49416/gallery/</loc>
   </url><url>
-    <loc>//localhost:55363/archives/</loc>
+    <loc>//localhost:49416/archives/</loc>
   </url><url>
-    <loc>//localhost:55363/search/</loc>
+    <loc>//localhost:49416/search/</loc>
   </url>
 </urlset>
