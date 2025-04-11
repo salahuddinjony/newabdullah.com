@@ -2,49 +2,432 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Abdullah Al Mamun</title>
-    <link>//localhost:1313/</link>
+    <link>//localhost:55363/</link>
     <description>Recent content on Abdullah Al Mamun</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>[newabdullah 2025]</copyright>
-    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:55363/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>//localhost:55363/posts/resume/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:55363/posts/resume/</guid>
+      <description>&lt;h1 id=&#34;abdullah-al-mamun---resume&#34;&gt;Abdullah Al Mamun - Resume&lt;/h1&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;A passionate LLM Architect with experience in diverse domains, including software development and AI. Experienced in working with cutting-edge technologies and delivering high-performance systems.&lt;/p&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming Languages:&lt;/strong&gt; Python, C++, JavaScript, Dart, Kotlin&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools &amp;amp; Frameworks:&lt;/strong&gt; Flutter, React, Node.js, Express, Django, Firebase&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI Technologies:&lt;/strong&gt; LLM, YOLO, TensorFlow&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Development:&lt;/strong&gt; HTML, CSS, JavaScript, MERN stack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;h3 id=&#34;software-engineer-2025---present&#34;&gt;Software Engineer (2025 - Present)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Worked on Android development using Kotlin and Dart at Brain Station 23.&lt;/li&gt;
+&lt;li&gt;Contributed to multiple mobile app projects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;llm-architect-2022---2025&#34;&gt;LLM Architect (2022 - 2025)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and deployed AI systems for various use cases, focusing on scalability and efficiency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;B.Sc. in Computer Science&lt;/strong&gt;&lt;br&gt;
+University of XYZ, Bangladesh&lt;br&gt;
+Graduation: 2024&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Evaluation of RecSys - Part 3</title>
-      <link>//localhost:1313/posts/the-evaluation-of-recsys-part-3/</link>
+      <link>//localhost:55363/posts/the-evaluation-of-recsys-part-3/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/the-evaluation-of-recsys-part-3/</guid>
+      <guid>//localhost:55363/posts/the-evaluation-of-recsys-part-3/</guid>
       <description>&lt;h1 id=&#34;the-evaluation-of-recommendation-systems---part-3&#34;&gt;The Evaluation of Recommendation Systems - Part 3&lt;/h1&gt;
 &lt;h2 id=&#34;context-why-this-post-matters-who-its-for-and-what-youll-learn&#34;&gt;Context: Why This Post Matters, Who It’s For, and What You’ll Learn&lt;/h2&gt;
 &lt;p&gt;Welcome to Part 3 of our four-part series on evaluating recommendation systems (RecSys)! In the previous installments, we laid the groundwork: Part 1 introduced foundational techniques like collaborative filtering (CF) and Matrix Factorization (MF), which excelled at capturing user-item interactions but assumed linearity, missing complex patterns. Part 2 explored Factorization Machines (FM) and XGBoost, which tackled sparse data and non-linear ranking but fell short on higher-order interactions and sequential behaviors. By 2016, these limitations spurred a seismic shift toward deep neural networks (DNNs), which transformed RecSys by learning intricate feature interactions, automating feature engineering, and addressing diverse tasks like sequential recommendations and multi-task optimization. This post traces that evolution from 2016 to 2023, diving into Neural Collaborative Filtering (NCF), Wide &amp;amp; Deep Learning, DeepFM, Deep Interest Network (DIN), Deep Learning Recommendation Model (DLRM), and Adaptive Task-to-Task Fusion (AdaTT). It’s tailored for data scientists, ML engineers, and tech professionals—particularly those designing large-scale RecSys in domains like e-commerce, streaming, and advertising—who need a deep, technical understanding of these advancements.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Evaluation of RecSys - Part 2</title>
-      <link>//localhost:1313/posts/the-evaluation-of-recsys-part2/</link>
+      <link>//localhost:55363/posts/the-evaluation-of-recsys-part2/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/the-evaluation-of-recsys-part2/</guid>
+      <guid>//localhost:55363/posts/the-evaluation-of-recsys-part2/</guid>
       <description> </description>
     </item>
     <item>
       <title>Code Syntax Guide</title>
-      <link>//localhost:1313/posts/code_syntax/</link>
+      <link>//localhost:55363/posts/code_syntax/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/code_syntax/</guid>
+      <guid>//localhost:55363/posts/code_syntax/</guid>
       <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
     </item>
     <item>
       <title>Rich Content and Shortcodes</title>
-      <link>//localhost:1313/posts/rich-content/</link>
+      <link>//localhost:55363/posts/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/rich-content/</guid>
+      <guid>//localhost:55363/posts/rich-content/</guid>
       <description>A brief description of Hugo Shortcodes</description>
     </item>
     <item>
-      <title>Abdullah Al Mamun</title>
-      <link>//localhost:1313/about/</link>
+      <title></title>
+      <link>//localhost:55363/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
+      <guid>//localhost:55363/about/</guid>
       <description>about</description>
+    </item>
+    <item>
+      <title>Gallery</title>
+      <link>//localhost:55363/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:55363/gallery/</guid>
+      <description>&lt;!-- Category Filter Buttons --&gt;
+&lt;div class=&#34;category-buttons&#34;&gt;
+  &lt;button onclick=&#34;filterImages(&#39;all&#39;)&#34; id=&#34;all-btn&#34; class=&#34;active&#34;&gt;All&lt;/button&gt;
+  &lt;button onclick=&#34;filterImages(&#39;nature&#39;)&#34; id=&#34;nature-btn&#34;&gt;Tech&lt;/button&gt;
+  &lt;button onclick=&#34;filterImages(&#39;city&#39;)&#34; id=&#34;city-btn&#34;&gt;City&lt;/button&gt;
+  &lt;button onclick=&#34;filterImages(&#39;sunset&#39;)&#34; id=&#34;sunset-btn&#34;&gt;Sunset&lt;/button&gt;
+&lt;/div&gt;
+&lt;!-- Gallery Images --&gt;
+&lt;div class=&#34;gallery-container&#34;&gt;
+  &lt;div class=&#34;gallery-item&#34; data-category=&#34;sunset nature&#34;&gt;
+    &lt;img src=&#34;//localhost:55363/images/photo2.jpg&#34; alt=&#34;Sunset in the mountains&#34; class=&#34;gallery-image&#34;&gt;
+    &lt;p class=&#34;image-description&#34;&gt;Sunset in the mountains&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;gallery-item&#34; data-category=&#34;nature city&#34;&gt;
+    &lt;img src=&#34;//localhost:55363/images/photo1.jpg&#34; alt=&#34;A quiet forest&#34; class=&#34;gallery-image&#34;&gt;
+    &lt;p class=&#34;image-description&#34;&gt;A quiet forest&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;gallery-item&#34; data-category=&#34;city&#34;&gt;
+    &lt;img src=&#34;//localhost:55363/images/photo3.jpg&#34; alt=&#34;City lights at night&#34; class=&#34;gallery-image&#34;&gt;
+    &lt;p class=&#34;image-description&#34;&gt;City lights at night&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;gallery-item&#34; data-category=&#34;sunset&#34;&gt;
+    &lt;img src=&#34;//localhost:55363/images/photo4.jpg&#34; alt=&#34;Golden sunrise&#34; class=&#34;gallery-image&#34;&gt;
+    &lt;p class=&#34;image-description&#34;&gt;Golden sunrise&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;gallery-item&#34; data-category=&#34;nature&#34;&gt;
+    &lt;img src=&#34;//localhost:55363/images/photo5.jpg&#34; alt=&#34;Snowy mountain peak&#34; class=&#34;gallery-image&#34;&gt;
+    &lt;p class=&#34;image-description&#34;&gt;Snowy mountain peak&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;gallery-item&#34; data-category=&#34;sunset&#34;&gt;
+    &lt;img src=&#34;//localhost:55363/images/photo6.jpg&#34; alt=&#34;Desert sunset&#34; class=&#34;gallery-image&#34;&gt;
+    &lt;p class=&#34;image-description&#34;&gt;Desert sunset&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Modal --&gt;
+&lt;div id=&#34;imageModal&#34; class=&#34;modal&#34; onclick=&#34;closeModal(event)&#34;&gt;
+  &lt;span class=&#34;close&#34;&gt;&amp;#10006;&lt;/span&gt;
+  &lt;div class=&#34;modal-content-container&#34;&gt;
+    &lt;img class=&#34;modal-content&#34; id=&#34;modalImg&#34;&gt;
+    &lt;div id=&#34;caption&#34; class=&#34;modal-caption&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;navigation-buttons&#34;&gt;
+    &lt;button class=&#34;prev&#34; onclick=&#34;changeImage(-1)&#34;&gt;&amp;#10094; Prev&lt;/button&gt;
+    &lt;button class=&#34;next&#34; onclick=&#34;changeImage(1)&#34;&gt;Next &amp;#10095;&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+/* Style for the filter buttons */
+.category-buttons {
+  text-align: center;
+  margin-top: 30px;
+}
+.category-buttons button {
+  margin: 0 10px;
+  padding: 12px 30px;
+  background-color: #333;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.category-buttons button:hover {
+  background-color: #555;
+  border-color: #fff;
+}
+.category-buttons button.active {
+  background-color: #007BFF;
+  border-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+/* Gallery styles */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+  padding: 0 10px;
+}
+@media (max-width: 768px) {
+  /* Gallery layout for smaller screens */
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr); /* Display 2 items per row */
+  }
+
+  /* Category buttons layout for mobile */
+  .category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .category-buttons button {
+    width: 45%; /* Two buttons per row */
+    margin: 5px;
+    font-size: 16px;
+    padding: 12px 20px;
+    text-align: center;
+  }
+
+  /* Navigation buttons layout for mobile */
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+
+    /* Add position and adjust bottom */
+    position: fixed;
+    left: 0;
+    bottom: 80px;
+    padding: 0 10px;
+    z-index: 999; /* Ensure it&#39;s above other elements */
+  }
+
+  .navigation-buttons button {
+    width: 45%;
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-buttons button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .navigation-buttons {
+    bottom: 140px !important; /* typo fixed */
+  }
+
+  .navigation-buttons button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+/* Gallery item hover effect */
+.gallery-item {
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.gallery-item p {
+  margin: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 300;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.gallery-item:hover p {
+  opacity: 1;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.9);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.modal-content {
+  display: block;
+  max-width: 95%;
+  max-height: 95vh;
+  border-radius: 10px;
+  transform: scale(0);
+  animation: zoomIn 0.4s ease-out forwards;
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+}
+#caption {
+  text-align: left;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 5px;
+  max-width: 80%;
+}
+.navigation-buttons {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+button.prev, button.next {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  margin: 0 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  opacity: 0.7;
+}
+button.prev:hover, button.next:hover {
+  opacity: 1;
+}
+
+/* Keyframes for the modal zoom-in effect */
+@keyframes zoomIn {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+&lt;/style&gt;
+&lt;script&gt;
+// Update category buttons to highlight selected one
+function setActiveButton(category) {
+  const buttons = document.querySelectorAll(&#39;.category-buttons button&#39;);
+  buttons.forEach(btn =&gt; {
+    if (btn.id.includes(category)) {
+      btn.classList.add(&#39;active&#39;);
+    } else {
+      btn.classList.remove(&#39;active&#39;);
+    }
+  });
+}
+
+// Filter images by category
+function filterImages(category) {
+  const items = document.querySelectorAll(&#34;.gallery-item&#34;);
+  items.forEach(item =&gt; {
+    const categories = item.dataset.category.split(&#34; &#34;);
+    if (category === &#34;all&#34; || categories.includes(category)) {
+      item.style.display = &#34;block&#34;;
+    } else {
+      item.style.display = &#34;none&#34;;
+    }
+  });
+  setActiveButton(category);  // Highlight the active category button
+}
+
+// Image modal functionality
+let currentIndex = 0;
+let images = [];
+
+function loadImages() {
+  images = [];
+  document.querySelectorAll(&#39;.gallery-item&#39;).forEach((item) =&gt; {
+    if (item.style.display !== &#39;none&#39;) {
+      const img = item.querySelector(&#39;img&#39;);
+      images.push({
+        src: img.src,
+        alt: img.alt
+      });
+    }
+  });
+}
+
+function openModal(el) {
+  const modal = document.getElementById(&#34;imageModal&#34;);
+  const modalImg = document.getElementById(&#34;modalImg&#34;);
+  const captionText = document.getElementById(&#34;caption&#34;);
+
+  loadImages();
+  const clickedImage = el.closest(&#39;.gallery-item&#39;);
+  currentIndex = Array.from(document.querySelectorAll(&#39;.gallery-item&#39;)).filter(i =&gt; i.style.display !== &#39;none&#39;).indexOf(clickedImage);
+
+  modal.style.display = &#34;flex&#34;;
+  modalImg.src = images[currentIndex].src;
+  captionText.innerHTML = images[currentIndex].alt;
+
+  document.body.style.overflow = &#39;hidden&#39;;
+}
+
+function closeModal(event) {
+  const modal = document.getElementById(&#34;imageModal&#34;);
+  if (event.target === modal || event.target.classList.contains(&#39;close&#39;)) {
+    modal.style.display = &#34;none&#34;;
+    document.body.style.overflow = &#39;auto&#39;;
+  }
+}
+
+function changeImage(direction) {
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  const modalImg = document.getElementById(&#34;modalImg&#34;);
+  const captionText = document.getElementById(&#34;caption&#34;);
+
+  modalImg.src = images[currentIndex].src;
+  captionText.innerHTML = images[currentIndex].alt;
+}
+
+document.querySelectorAll(&#39;.gallery-item img&#39;).forEach(img =&gt; {
+  img.addEventListener(&#39;click&#39;, (event) =&gt; {
+    openModal(event.target);
+  });
+});
+
+window.addEventListener(&#34;keydown&#34;, function (e) {
+  const modal = document.getElementById(&#34;imageModal&#34;);
+  if (modal.style.display !== &#34;flex&#34;) return;
+
+  if (e.key === &#34;Escape&#34;) {
+    closeModal({ target: modal });
+  }
+  if (e.key === &#34;ArrowLeft&#34;) {
+    changeImage(-1);
+  }
+  if (e.key === &#34;ArrowRight&#34;) {
+    changeImage(1);
+  }
+});
+window.onload = () =&gt; {
+  filterImages(&#39;all&#39;);
+};
+&lt;/script&gt;</description>
     </item>
   </channel>
 </rss>

@@ -35,12 +35,18 @@ languages:
         - name: About Me
           url: about
           weight: 5
+        - name: Resume
+          url: http://localhost:1313/resume.pdf
+          weight: 6
+        - name: Gallery
+          url: gallery/
+          weight: 7
         - name: Search
           url: search/
           weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
+        # - name: Tags
+        #   url: tags/
+        #   weight: 10
 
 outputs:
   home:

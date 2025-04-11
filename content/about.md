@@ -1,5 +1,5 @@
 ---
-title: "Abdullah Al Mamun"
+#title: "Abdullah Al Mamun"
 layout: "about"
 type: "page"
 summary: "about"
