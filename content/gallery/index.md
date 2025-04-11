@@ -17,7 +17,7 @@ layout: gallery
     <img src="/images/photo2.jpg" alt="Sunset in the mountains" class="gallery-image">
     <p class="image-description">Sunset in the mountains</p>
   </div>
-  <div class="gallery-item" data-category="nature">
+  <div class="gallery-item" data-category="nature city">
     <img src="/images/photo1.jpg" alt="A quiet forest" class="gallery-image">
     <p class="image-description">A quiet forest</p>
   </div>
@@ -52,7 +52,94 @@ layout: gallery
   </div>
 </div>
 
+<!-- Social Media Buttons -->
+<!-- 
+<p align="center" style="padding-top: 40px; flex-wrap: wrap;">
+  <a href="https://www.linkedin.com/in/newabdullah/" target="_blank" class="social-btn linkedin">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+  <a href="https://www.facebook.com/newabdullah101" target="_blank" class="social-btn facebook">
+    <i class="fab fa-facebook"></i> Facebook
+  </a>
+  <a href="https://github.com/pwaabdullah" target="_blank" class="social-btn github">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+  <a href="https://www.instagram.com/yourusername" target="_blank" class="social-btn instagram">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+</p> -->
+
 <style>
+
+
+/*
+.social-btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.social-btn i {
+  margin-right: 10px;
+}
+
+.social-btn.linkedin {
+  background-color: #0077B5;
+}
+
+.social-btn.facebook {
+  background-color: #1877F2;
+}
+
+.social-btn.github {
+  background-color: #333;
+}
+
+.social-btn.instagram {
+  background-color: #E4405F;
+}
+
+.social-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+@media screen and (max-width: 768px) {
+  .bio-section {
+    padding: 20px;
+    font-size: 0.95rem;
+  }
+
+  .bio-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .social-btn {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  p img {
+    width: 90% !important;
+  }
+}
+
+ */
+
+ 
+
+
 /* Style for the filter buttons */
 .category-buttons {
   text-align: center;
@@ -354,3 +441,6 @@ window.onload = () => {
   filterImages('all');
 };
 </script>
+
+<!-- Font Awesome for Icons -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->

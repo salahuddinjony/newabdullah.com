@@ -1,5 +1,5 @@
 ---
-author: ["Salah Uddin"]
+author: ["Abdullah Al Mamun"]
 title: "AI Agent with MCP: Smart Meeting Scheduler"
 date: 2025-04-11
 comments: true

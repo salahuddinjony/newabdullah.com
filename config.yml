@@ -41,6 +41,10 @@ languages:
         - name: Gallery
           url: gallery/
           weight: 7
+        - name: Contact
+          url: "mailto:aamcse@gmail.com?subject=Hello%20Mamun&body=I%20saw%20your%20site%20and..."
+          
+          weight: 8
         - name: Search
           url: search/
           weight: 10

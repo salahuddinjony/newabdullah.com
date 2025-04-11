@@ -49,7 +49,7 @@
       <description>&lt;!-- Category Filter Buttons --&gt;
 &lt;div class=&#34;category-buttons&#34;&gt;
   &lt;button onclick=&#34;filterImages(&#39;all&#39;)&#34; id=&#34;all-btn&#34; class=&#34;active&#34;&gt;All&lt;/button&gt;
-  &lt;button onclick=&#34;filterImages(&#39;nature&#39;)&#34; id=&#34;nature-btn&#34;&gt;Tech&lt;/button&gt;
+  &lt;button onclick=&#34;filterImages(&#39;nature&#39;)&#34; id=&#34;nature-btn&#34;&gt;Nature&lt;/button&gt;
   &lt;button onclick=&#34;filterImages(&#39;city&#39;)&#34; id=&#34;city-btn&#34;&gt;City&lt;/button&gt;
   &lt;button onclick=&#34;filterImages(&#39;sunset&#39;)&#34; id=&#34;sunset-btn&#34;&gt;Sunset&lt;/button&gt;
 &lt;/div&gt;
@@ -92,7 +92,93 @@
     &lt;button class=&#34;next&#34; onclick=&#34;changeImage(1)&#34;&gt;Next &amp;#10095;&lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;!-- Social Media Buttons --&gt;
+&lt;!-- 
+&lt;p align=&#34;center&#34; style=&#34;padding-top: 40px; flex-wrap: wrap;&#34;&gt;
+  &lt;a href=&#34;https://www.linkedin.com/in/newabdullah/&#34; target=&#34;_blank&#34; class=&#34;social-btn linkedin&#34;&gt;
+    &lt;i class=&#34;fab fa-linkedin&#34;&gt;&lt;/i&gt; LinkedIn
+  &lt;/a&gt;
+  &lt;a href=&#34;https://www.facebook.com/newabdullah101&#34; target=&#34;_blank&#34; class=&#34;social-btn facebook&#34;&gt;
+    &lt;i class=&#34;fab fa-facebook&#34;&gt;&lt;/i&gt; Facebook
+  &lt;/a&gt;
+  &lt;a href=&#34;https://github.com/pwaabdullah&#34; target=&#34;_blank&#34; class=&#34;social-btn github&#34;&gt;
+    &lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; GitHub
+  &lt;/a&gt;
+  &lt;a href=&#34;https://www.instagram.com/yourusername&#34; target=&#34;_blank&#34; class=&#34;social-btn instagram&#34;&gt;
+    &lt;i class=&#34;fab fa-instagram&#34;&gt;&lt;/i&gt; Instagram
+  &lt;/a&gt;
+&lt;/p&gt; --&gt;
 &lt;style&gt;
+
+
+/*
+.social-btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  font-family: &#39;Segoe UI&#39;, sans-serif;
+}
+
+.social-btn i {
+  margin-right: 10px;
+}
+
+.social-btn.linkedin {
+  background-color: #0077B5;
+}
+
+.social-btn.facebook {
+  background-color: #1877F2;
+}
+
+.social-btn.github {
+  background-color: #333;
+}
+
+.social-btn.instagram {
+  background-color: #E4405F;
+}
+
+.social-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+@media screen and (max-width: 768px) {
+  .bio-section {
+    padding: 20px;
+    font-size: 0.95rem;
+  }
+
+  .bio-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .social-btn {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  p img {
+    width: 90% !important;
+  }
+}
+
+ */
+
+ 
+
+
 /* Style for the filter buttons */
 .category-buttons {
   text-align: center;
@@ -178,7 +264,7 @@
   }
 
   .navigation-buttons {
-    bottom: 140px !important; /* typo fixed */
+    bottom: 100px !important; /* typo fixed */
   }
 
   .navigation-buttons button {
@@ -392,7 +478,9 @@ window.addEventListener(&#34;keydown&#34;, function (e) {
 window.onload = () =&gt; {
   filterImages(&#39;all&#39;);
 };
-&lt;/script&gt;</description>
+&lt;/script&gt;
+&lt;!-- Font Awesome for Icons --&gt;
+&lt;!-- &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css&#34;&gt; --&gt;</description>
     </item>
   </channel>
 </rss>

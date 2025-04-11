@@ -79,6 +79,8 @@ iframe {
 
 
 
+
+
 /*Recent post*/
 
 
@@ -117,7 +119,7 @@ iframe {
 #menu {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     padding: 0;
     margin: 0;
 }
@@ -172,7 +174,7 @@ iframe {
 
     #menu li a {
         color: var(--primary) !important;
-        padding: 8px 20px; /* Decreased top and bottom padding */
+        padding: 0px 0px; /* Decreased top and bottom padding */
         text-align: center;
         display: block;
         font-size: 16px; /* Slightly smaller font for mobile */
