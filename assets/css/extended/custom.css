@@ -16,6 +16,88 @@ iframe {
     border: 1px solid var(--border);
 }
 
+/*Share button*/
+
+.share-buttons {
+  font-size: 2rem;
+  color: #333;
+  background: #000;
+}
+.share-buttons a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: #1DA1F2;
+}
+.share-buttons a:hover {
+  text-decoration: underline;
+}
+
+/* Share Buttons with Icon Inside Text for Dark Mode */
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff; /* Light text color for dark mode */
+    margin-top: 100px;
+}
+
+.share-buttons span {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.share-buttons span i {
+    font-size: 1.8rem;
+    margin-left: 0.5rem;
+}
+
+.share-buttons a {
+    
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #fff; /* Light text color for links */
+    transition: all 0.3s ease;
+    margin-left: 1rem;
+    text-decoration: none; /* Remove underline */
+}
+
+.share-buttons a:hover {
+    color: #1DA1F2; /* Change text color on hover */
+}
+
+.share-buttons a i {
+    transition: all 0.3s ease;
+}
+
+.share-buttons a:hover i {
+    transform: scale(1.1);
+}
+
+
+
+/*Recent post*/
+
+
+/*Buy me a coffee*/
+
+/* Buy Me a Coffee Button Styling */
+.buy-me-a-coffee {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.buy-me-a-coffee img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.buy-me-a-coffee img:hover {
+    transform: scale(1.1);
+}
 /* Responsive Navigation Menu Styles */
 
 .menu-toggle {

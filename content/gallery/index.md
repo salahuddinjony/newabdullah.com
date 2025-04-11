@@ -6,7 +6,7 @@ layout: gallery
 <!-- Category Filter Buttons -->
 <div class="category-buttons">
   <button onclick="filterImages('all')" id="all-btn" class="active">All</button>
-  <button onclick="filterImages('nature')" id="nature-btn">Tech</button>
+  <button onclick="filterImages('nature')" id="nature-btn">Nature</button>
   <button onclick="filterImages('city')" id="city-btn">City</button>
   <button onclick="filterImages('sunset')" id="sunset-btn">Sunset</button>
 </div>
@@ -17,7 +17,7 @@ layout: gallery
     <img src="/images/photo2.jpg" alt="Sunset in the mountains" class="gallery-image">
     <p class="image-description">Sunset in the mountains</p>
   </div>
-  <div class="gallery-item" data-category="nature city">
+  <div class="gallery-item" data-category="nature">
     <img src="/images/photo1.jpg" alt="A quiet forest" class="gallery-image">
     <p class="image-description">A quiet forest</p>
   </div>
@@ -138,7 +138,7 @@ layout: gallery
   }
 
   .navigation-buttons {
-    bottom: 140px !important; /* typo fixed */
+    bottom: 100px !important; /* typo fixed */
   }
 
   .navigation-buttons button {

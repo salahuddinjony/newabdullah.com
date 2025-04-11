@@ -63,6 +63,13 @@ params:
   defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: true
+  ShareButtons:
+    - twitter
+    - linkedin
+    - facebook
+    - reddit
+    - whatsapp
+    - telegram
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
