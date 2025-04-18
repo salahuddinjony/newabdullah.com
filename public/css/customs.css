@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    .mjx-svg svg {
+        height: 0.5em !important;
+    }
+  }
+  
+  /* For tablets */
+  @media (min-width: 601px) and (max-width: 768px) {
+    .mjx-svg svg {
+        height: 0.5em !important;
+    }
+  }
+  
+  /* For larger screens */
+  @media (min-width: 769px) {
+    .mjx-svg svg {
+      height: 0.5em !important;
+    }
+  }
