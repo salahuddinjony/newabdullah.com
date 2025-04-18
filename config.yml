@@ -46,9 +46,9 @@ languages:
           pre: "<i class='fab fa-linkedin'></i>"
           params:
             target: "_blank"
-        - name: Gallery
-          url: gallery/
-          weight: 8
+        # - name: Gallery
+        #   url: gallery/
+        #   weight: 8
         - name: Contact
           url: contact
           weight: 9
@@ -165,6 +165,7 @@ params:
   #     keys: ["title", "permalink", "summary", "content"]
 params:
   math: true
+  
 
 markup:
   goldmark:

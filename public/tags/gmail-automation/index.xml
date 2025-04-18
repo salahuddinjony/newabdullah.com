@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gmail Automation on Abdullah Al Mamun</title>
-    <link>http://localhost:53398/tags/gmail-automation/</link>
+    <link>https://newabdullah.com/tags/gmail-automation/</link>
     <description>Recent content in Gmail Automation on Abdullah Al Mamun</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>©newabdullah 2025</copyright>
     <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:53398/tags/gmail-automation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://newabdullah.com/tags/gmail-automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Agent with MCP: Smart Meeting Scheduler</title>
-      <link>http://localhost:53398/posts/ai-agent/</link>
+      <link>https://newabdullah.com/posts/ai-agent/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53398/posts/ai-agent/</guid>
+      <guid>https://newabdullah.com/posts/ai-agent/</guid>
       <description>&lt;h2 id=&#34;context-why-this-project-matters-who-its-for-and-what-youll-learn&#34;&gt;Context: Why This Project Matters, Who It’s For, and What You’ll Learn&lt;/h2&gt;
 &lt;p&gt;In this post, I’m excited to share a recent development—an AI agent powered by the Model Context Protocol (MCP), OpenAI, and Google APIs that can set up meetings on your calendar and send notification emails, all triggered by simple natural language commands. This project is designed for developers, tech enthusiasts, and productivity geeks who want to explore the power of LLMs in real-world task automation.&lt;/p&gt;</description>
     </item>

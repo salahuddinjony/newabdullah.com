@@ -10,7 +10,7 @@ summary: "about"
 <p align="center">
   <img src="/aboutme.jpg" alt="Abdullah Al Mamun" style="max-width: 100%; height: auto; width: 100%; max-width: 700px;">
   <figcaption style="font-size: 0.9em; color: #888; text-align:center">
-    Abdullah Al Mamun – LLM Architect & Researcher
+    Photo was taken in Meta All Hands 2024 at Hacker Square, Meta HQ, Menlo Park, CA
   </figcaption>
 </p>
 
