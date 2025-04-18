@@ -2,165 +2,165 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Abdullah Al Mamun</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:53398/tags/</link>
     <description>Recent content in Tags on Abdullah Al Mamun</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>©newabdullah 2025</copyright>
     <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53398/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Agent</title>
-      <link>http://localhost:1313/tags/ai-agent/</link>
+      <link>http://localhost:53398/tags/ai-agent/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai-agent/</guid>
+      <guid>http://localhost:53398/tags/ai-agent/</guid>
       <description></description>
     </item>
     <item>
       <title>Calendar Automation</title>
-      <link>http://localhost:1313/tags/calendar-automation/</link>
+      <link>http://localhost:53398/tags/calendar-automation/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/calendar-automation/</guid>
+      <guid>http://localhost:53398/tags/calendar-automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Gmail API</title>
-      <link>http://localhost:1313/tags/gmail-api/</link>
+      <link>http://localhost:53398/tags/gmail-api/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gmail-api/</guid>
+      <guid>http://localhost:53398/tags/gmail-api/</guid>
       <description></description>
     </item>
     <item>
       <title>Gmail Automation</title>
-      <link>http://localhost:1313/tags/gmail-automation/</link>
+      <link>http://localhost:53398/tags/gmail-automation/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gmail-automation/</guid>
+      <guid>http://localhost:53398/tags/gmail-automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Google Calendar API</title>
-      <link>http://localhost:1313/tags/google-calendar-api/</link>
+      <link>http://localhost:53398/tags/google-calendar-api/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/google-calendar-api/</guid>
+      <guid>http://localhost:53398/tags/google-calendar-api/</guid>
       <description></description>
     </item>
     <item>
       <title>LLM Commands</title>
-      <link>http://localhost:1313/tags/llm-commands/</link>
+      <link>http://localhost:53398/tags/llm-commands/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/llm-commands/</guid>
+      <guid>http://localhost:53398/tags/llm-commands/</guid>
       <description></description>
     </item>
     <item>
       <title>MCP</title>
-      <link>http://localhost:1313/tags/mcp/</link>
+      <link>http://localhost:53398/tags/mcp/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mcp/</guid>
+      <guid>http://localhost:53398/tags/mcp/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenAI</title>
-      <link>http://localhost:1313/tags/openai/</link>
+      <link>http://localhost:53398/tags/openai/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/openai/</guid>
+      <guid>http://localhost:53398/tags/openai/</guid>
       <description></description>
     </item>
     <item>
       <title>Deep Learning</title>
-      <link>http://localhost:1313/tags/deep-learning/</link>
+      <link>http://localhost:53398/tags/deep-learning/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deep-learning/</guid>
+      <guid>http://localhost:53398/tags/deep-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Deepfm</title>
-      <link>http://localhost:1313/tags/deepfm/</link>
+      <link>http://localhost:53398/tags/deepfm/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deepfm/</guid>
+      <guid>http://localhost:53398/tags/deepfm/</guid>
       <description></description>
     </item>
     <item>
       <title>Din</title>
-      <link>http://localhost:1313/tags/din/</link>
+      <link>http://localhost:53398/tags/din/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/din/</guid>
+      <guid>http://localhost:53398/tags/din/</guid>
       <description></description>
     </item>
     <item>
       <title>Dlrm</title>
-      <link>http://localhost:1313/tags/dlrm/</link>
+      <link>http://localhost:53398/tags/dlrm/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dlrm/</guid>
+      <guid>http://localhost:53398/tags/dlrm/</guid>
       <description></description>
     </item>
     <item>
       <title>Multi-Task Learning</title>
-      <link>http://localhost:1313/tags/multi-task-learning/</link>
+      <link>http://localhost:53398/tags/multi-task-learning/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/multi-task-learning/</guid>
+      <guid>http://localhost:53398/tags/multi-task-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Neural Collaborative Filtering</title>
-      <link>http://localhost:1313/tags/neural-collaborative-filtering/</link>
+      <link>http://localhost:53398/tags/neural-collaborative-filtering/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/neural-collaborative-filtering/</guid>
+      <guid>http://localhost:53398/tags/neural-collaborative-filtering/</guid>
       <description></description>
     </item>
     <item>
       <title>Recommendation Systems</title>
-      <link>http://localhost:1313/tags/recommendation-systems/</link>
+      <link>http://localhost:53398/tags/recommendation-systems/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/recommendation-systems/</guid>
+      <guid>http://localhost:53398/tags/recommendation-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Wide and Deep</title>
-      <link>http://localhost:1313/tags/wide-and-deep/</link>
+      <link>http://localhost:53398/tags/wide-and-deep/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/wide-and-deep/</guid>
+      <guid>http://localhost:53398/tags/wide-and-deep/</guid>
       <description></description>
     </item>
     <item>
       <title>Factorization Machines</title>
-      <link>http://localhost:1313/tags/factorization-machines/</link>
+      <link>http://localhost:53398/tags/factorization-machines/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/factorization-machines/</guid>
+      <guid>http://localhost:53398/tags/factorization-machines/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>http://localhost:1313/tags/machine-learning/</link>
+      <link>http://localhost:53398/tags/machine-learning/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <guid>http://localhost:53398/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Xgboost</title>
-      <link>http://localhost:1313/tags/xgboost/</link>
+      <link>http://localhost:53398/tags/xgboost/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/xgboost/</guid>
+      <guid>http://localhost:53398/tags/xgboost/</guid>
       <description></description>
     </item>
     <item>
       <title>Collaborative Filtering</title>
-      <link>http://localhost:1313/tags/collaborative-filtering/</link>
+      <link>http://localhost:53398/tags/collaborative-filtering/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/collaborative-filtering/</guid>
+      <guid>http://localhost:53398/tags/collaborative-filtering/</guid>
       <description></description>
     </item>
     <item>
       <title>Evaluation</title>
-      <link>http://localhost:1313/tags/evaluation/</link>
+      <link>http://localhost:53398/tags/evaluation/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/evaluation/</guid>
+      <guid>http://localhost:53398/tags/evaluation/</guid>
       <description></description>
     </item>
     <item>
       <title>Matrix Factorization</title>
-      <link>http://localhost:1313/tags/matrix-factorization/</link>
+      <link>http://localhost:53398/tags/matrix-factorization/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/matrix-factorization/</guid>
+      <guid>http://localhost:53398/tags/matrix-factorization/</guid>
       <description></description>
     </item>
   </channel>

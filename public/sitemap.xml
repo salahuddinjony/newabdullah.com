@@ -2,116 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:53398/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai-agent/</loc>
+    <loc>http://localhost:53398/tags/ai-agent/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ai-agent/</loc>
+    <loc>http://localhost:53398/posts/ai-agent/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ai-projects/</loc>
+    <loc>http://localhost:53398/categories/ai-projects/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/calendar-automation/</loc>
+    <loc>http://localhost:53398/tags/calendar-automation/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:53398/categories/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gmail-api/</loc>
+    <loc>http://localhost:53398/tags/gmail-api/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gmail-automation/</loc>
+    <loc>http://localhost:53398/tags/gmail-automation/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/google-calendar-api/</loc>
+    <loc>http://localhost:53398/tags/google-calendar-api/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/llm-commands/</loc>
+    <loc>http://localhost:53398/tags/llm-commands/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mcp/</loc>
+    <loc>http://localhost:53398/tags/mcp/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/openai/</loc>
+    <loc>http://localhost:53398/tags/openai/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:53398/posts/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:53398/tags/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/deep-learning/</loc>
+    <loc>http://localhost:53398/tags/deep-learning/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/deepfm/</loc>
+    <loc>http://localhost:53398/tags/deepfm/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/din/</loc>
+    <loc>http://localhost:53398/tags/din/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dlrm/</loc>
+    <loc>http://localhost:53398/tags/dlrm/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/multi-task-learning/</loc>
+    <loc>http://localhost:53398/tags/multi-task-learning/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/neural-collaborative-filtering/</loc>
+    <loc>http://localhost:53398/tags/neural-collaborative-filtering/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/recommendation-systems/</loc>
+    <loc>http://localhost:53398/tags/recommendation-systems/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/recsys-series/</loc>
+    <loc>http://localhost:53398/categories/recsys-series/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/the-evaluation-of-recsys-part-3/</loc>
+    <loc>http://localhost:53398/posts/the-evaluation-of-recsys-part-3/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/wide-and-deep/</loc>
+    <loc>http://localhost:53398/tags/wide-and-deep/</loc>
     <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/factorization-machines/</loc>
+    <loc>http://localhost:53398/tags/factorization-machines/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <loc>http://localhost:53398/tags/machine-learning/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://localhost:53398/series/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/the-evaluation-of-recsys-part2/</loc>
+    <loc>http://localhost:53398/posts/the-evaluation-of-recsys-part2/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/themes-guide/</loc>
+    <loc>http://localhost:53398/series/themes-guide/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/xgboost/</loc>
+    <loc>http://localhost:53398/tags/xgboost/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/collaborative-filtering/</loc>
+    <loc>http://localhost:53398/tags/collaborative-filtering/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/evaluation/</loc>
+    <loc>http://localhost:53398/tags/evaluation/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/matrix-factorization/</loc>
+    <loc>http://localhost:53398/tags/matrix-factorization/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/the-evaluation-of-recsys---part-1/</loc>
+    <loc>http://localhost:53398/posts/the-evaluation-of-recsys---part-1/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:53398/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:53398/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
+    <loc>http://localhost:53398/gallery/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>http://localhost:53398/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost:53398/search/</loc>
   </url>
 </urlset>
