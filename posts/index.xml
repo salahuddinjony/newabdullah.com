@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Abdullah Al Mamun</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Abdullah Al Mamun</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <copyright>©newabdullah 2025</copyright>
+    <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Agent with MCP: Smart Meeting Scheduler</title>
+      <link>http://localhost:1313/posts/ai-agent/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-agent/</guid>
+      <description>&lt;h2 id=&#34;context-why-this-project-matters-who-its-for-and-what-youll-learn&#34;&gt;Context: Why This Project Matters, Who It’s For, and What You’ll Learn&lt;/h2&gt;
+&lt;p&gt;In this post, I’m excited to share a recent development—an AI agent powered by the Model Context Protocol (MCP), OpenAI, and Google APIs that can set up meetings on your calendar and send notification emails, all triggered by simple natural language commands. This project is designed for developers, tech enthusiasts, and productivity geeks who want to explore the power of LLMs in real-world task automation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Evaluation of RecSys - Part 3</title>
+      <link>http://localhost:1313/posts/the-evaluation-of-recsys-part-3/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-evaluation-of-recsys-part-3/</guid>
+      <description>&lt;h2 id=&#34;context-why-this-post-matters-who-its-for-and-what-youll-learn&#34;&gt;Context: Why This Post Matters, Who It’s For, and What You’ll Learn&lt;/h2&gt;
+&lt;p&gt;Welcome to Part 3 of our four-part series on evaluating recommendation systems (RecSys)! In the previous installments, we laid the groundwork: Part 1 introduced foundational techniques like collaborative filtering (CF) and Matrix Factorization (MF), which excelled at capturing user-item interactions but assumed linearity, missing complex patterns. Part 2 explored Factorization Machines (FM) and XGBoost, which tackled sparse data and non-linear ranking but fell short on higher-order interactions and sequential behaviors. By 2016, these limitations spurred a seismic shift toward deep neural networks (DNNs), which transformed RecSys by learning intricate feature interactions, automating feature engineering, and addressing diverse tasks like sequential recommendations and multi-task optimization. This post traces that evolution from 2016 to 2023, diving into Neural Collaborative Filtering (NCF), Wide &amp;amp; Deep Learning, DeepFM, Deep Interest Network (DIN), Deep Learning Recommendation Model (DLRM), and Adaptive Task-to-Task Fusion (AdaTT). It’s tailored for data scientists, ML engineers, and tech professionals—particularly those designing large-scale RecSys in domains like e-commerce, streaming, and advertising—who need a deep, technical understanding of these advancements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Evaluation of RecSys - Part 2</title>
+      <link>http://localhost:1313/posts/the-evaluation-of-recsys-part2/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-evaluation-of-recsys-part2/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>The Evaluation of RecSys - Part 1</title>
+      <link>http://localhost:1313/posts/the-evaluation-of-recsys---part-1/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-evaluation-of-recsys---part-1/</guid>
+      <description>&lt;h1 id=&#34;the-evaluation-of-recsys---part-1&#34;&gt;The evaluation of RecSys - Part 1&lt;/h1&gt;
+&lt;p&gt;Recommendation systems (RecSys) play a critical role in modern AI-driven applications. From e-commerce to social media, search engines, and online advertising, personalized recommendations significantly impact user experience and business revenue. This blog series is intended for both beginners and experienced ML practitioners who want to understand the evaluation of recommendation systems in a structured manner.&lt;br&gt;
+I’ll discuss early tech briefly and deep dive into the latest innovations. For each technique, I’ll break down key concepts, their loss functions (how they learn), inputs/outputs, features, and limitations—why they weren’t enough, and how the next breakthrough fixed the flaws. But first things first:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
