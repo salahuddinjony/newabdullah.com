@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
@@ -30,21 +30,21 @@
   <link rel="stylesheet" href="assets/css/extended/custom.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>The Evaluation of RecSys - Part 2 | Abdullah Al Mamun</title>
 <meta name="keywords" content="recommendation systems, machine learning, factorization machines, xgboost">
 <meta name="description" content=" ">
 <meta name="author" content="Abdullah Al Mamun">
-<link rel="canonical" href="http://localhost:1313/posts/the-evaluation-of-recsys-part2/">
+<link rel="canonical" href="https://newabdullah.com/posts/the-evaluation-of-recsys-part2/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.75535fae9b6d606a76c56b0d7f071f14aac8225f5428c094d3cb8741d3b6cec8.css" integrity="sha256-dVNfrpttYGp2xWsNfwcfFKrIIl9UKMCU08uHQdO2zsg=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://newabdullah.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://newabdullah.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://newabdullah.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://newabdullah.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://newabdullah.com/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/the-evaluation-of-recsys-part2/">
+<link rel="alternate" hreflang="en" href="https://newabdullah.com/posts/the-evaluation-of-recsys-part2/">
 <noscript>
     <style>
         #theme-toggle,
@@ -81,7 +81,78 @@
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://newabdullah.com/posts/the-evaluation-of-recsys-part2/">
+  <meta property="og:site_name" content="Abdullah Al Mamun">
+  <meta property="og:title" content="The Evaluation of RecSys - Part 2">
+  <meta property="og:description" content=" ">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-11T00:00:00+00:00">
+    <meta property="article:tag" content="Recommendation Systems">
+    <meta property="article:tag" content="Machine Learning">
+    <meta property="article:tag" content="Factorization Machines">
+    <meta property="article:tag" content="Xgboost">
+  <meta name="fediverse:creator" content="@adityatelange@mastodon.social">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="The Evaluation of RecSys - Part 2">
+<meta name="twitter:description" content=" ">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://newabdullah.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "The Evaluation of RecSys - Part 2",
+      "item": "https://newabdullah.com/posts/the-evaluation-of-recsys-part2/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Evaluation of RecSys - Part 2",
+  "name": "The Evaluation of RecSys - Part 2",
+  "description": " ",
+  "keywords": [
+    "recommendation systems", "machine learning", "factorization machines", "xgboost"
+  ],
+  "articleBody": "Welcome to Part 2 of RecSys series! In Part 1, we traced the evolution of RecSys from content-based filtering (CBF) to collaborative filtering (CF), and finally to Matrix Factorization (MF), which introduced latent factor models to tackle sparsity and scalability. However, MF’s linear assumptions and struggles with implicit feedback (e.g., clicks, views) set the stage for more advanced techniques. In this post, we dive into two pivotal methods from the 2010-2015 era: Factorization Machines (FM) and Gradient Boosted Trees (XGBoost).\nIn Part 2, you’ll learn how FM generalizes MF to handle diverse data types, how XGBoost leverages decision trees for ranking, and the strengths and limitations of each.\n1. Recap In Part 1, we explored the foundational stages of RecSys:\nCBF based on features (e.g., movie genres) but struggled with diversity. CF leveraged user-item interactions, introducing neighborhood methods and latent factor models. MF modeled users and items in a latent space, predicting ratings as \\(\\hat{r}_{ui} = p_u^T q_i\\). However, MF assumed linear interactions and worked best with explicit feedback (ratings) only, failed to capture implicit feedback like clicks or views. These limitations prompted the 2010-2015 era, where machine learning techniques like FM and XGBoost emerged to handle more complex patterns.\n2. In Layman terms Imagine you’re shopping in a store for a jacket. In Part 1, MF was like a salesman who suggested jackets based on your ratings, guessing your taste with simple categories like “likes warm jackets” or “prefers casual style.” It worked well when you rated items, but what if you never rating? or what if the assistant only knows you clicked on a jacket or viewed its picture? MF struggles here because it’s too rigid. Enter Factorization Machines (FM) and XGBoost—two smarter assistants who arrived around 2010 to fix this.\nFM: It’s like a smart salesman who looks at everything—you clicked, the weather, and your profile (e.g., you’re a runner), mixing these clues to suggest a waterproof running jacket if it’s rainy. It’s flexible and can handle all kinds of hints, not just ratings.\nXGBoost: XGBoost is like a super-smart friend who learns from everyone’s shopping habits to suggest the perfect jacket. It builds a decision flowchart (Actually TREE): “If you like bright colors, and it’s winter, and you often buy on weekends, then try this red parka.” It improves its suggestions step by step.\nThese assistants are more flexible than MF, handling messy data and complex patterns, but they have limits, which we’ll explore as we move toward deep learning in Part 3.\n3. Prerequisites Dot product combines two vectors to measure similarity—think of it as a handshake between features (e.g., user preferences and item traits). Loss function measures prediction errors (e.g., squared error: \\((y - \\hat{y})^2\\)), regularization prevents overfitting, and optimization (e.g., gradient descent) minimizes the loss. One-hot encoding transforming raw data (e.g., user IDs, item categories) into usable inputs. From Part 1, recall MF models ratings as \\(\\hat{r}_{ui} = p_u^T q_i\\), where \\(p_u\\) and \\(q_i\\) are latent vectors, but it struggles with implicit feedback. For more on these topics, check out Linear Algebra Basics or Intro to Machine Learning.\n4. Deep Dive 4.1 Factorization Machines (FM) FM, introduced by Steffen Rendle in 2010, generalizes Matrix Factorization to model interactions between any features, not just users and items. It excels in sparse, high, dimensional settings like CTR prediction in online advertising, where data includes implicit feedback (clicks, views) and diverse features (user demographics, ad categories, context). FM’s ability to capture pairwise feature interactions without manual engineering made it a cornerstone for RecSys.\nHow It Works:\nFM models a prediction (e.g., click probability) as a combination of linear and pairwise feature interactions. For a feature vector \\(\\mathbf{x} \\in \\mathbb{R}^n\\) (where \\(n\\) is the number of features), the prediction is:\n$$ \\hat{y}(\\mathbf{x}) = w_0 + \\sum_{i=1}^n w_i x_i + \\sum_{i=1}^n \\sum_{j=i+1}^n (v_i^T v_j) x_i x_j $$\n\\(w_0\\): Global bias. \\(w_i\\): Weight for feature \\(x_i\\). \\(\\langle v_i, v_j \\rangle = v_i^T v_j\\): Dot product of latent vectors \\(v_i, v_j \\in \\mathbb{R}^k\\), modeling the interaction between features \\(x_i\\) and \\(x_j\\). \\(k\\): Number of latent factors (typically 10-100). This captures both linear effects ( \\(w_i x_i\\)) and pairwise interactions ( \\(\\langle v_i, v_j \\rangle x_i x_j\\)). For example, in CTR prediction, \\(x_i\\) might indicate the user, \\(x_j\\) the ad, and their interaction reflects compatibility.\nConnection to MF:\nIf \\(\\mathbf{x}\\) encodes only user \\(u\\) and item \\(i\\) (e.g., \\(x_u = 1\\), \\(x_i = 1\\), all others 0), FM reduces to MF: $$ \\hat{y}(\\mathbf{x}) = w_0 + w_u + w_i + \\langle v_u, v_i \\rangle $$ Here, \\(\\langle v_u, v_i \\rangle\\) mirrors MF’s \\(p_u^T q_i\\), but FM’s generality allows modeling additional features like user age or ad category.\nLoss Function:\nFM supports regression (rating prediction) or classification (click prediction). For regression:\n$$ L = \\sum_{(\\mathbf{x}, y) \\in D} (y - \\hat{y}(\\mathbf{x}))^2 + \\lambda (| \\mathbf{w} |_2^2 + | V |_F^2) $$\nFor classification (CTR):\n$$ L = \\sum_{(\\mathbf{x}, y) \\in D} \\log(1 + \\exp(-y \\hat{y}(\\mathbf{x}))) + \\lambda (| \\mathbf{w} |_2^2 + | V |_F^2) $$\n\\(D\\): Training data. \\(y\\): Target (e.g., 1 for click, -1 for no click). \\(\\lambda\\): Regularization to prevent overfitting. \\(V\\): Matrix of latent vectors \\(v_i\\). Optimization:\nRendle (2010) proposes three methods:\nStochastic Gradient Descent (SGD): Updates parameters incrementally for each sample, ideal for large datasets. Alternating Least Squares (ALS): Optimizes one parameter at a time, better for batch processing. Markov Chain Monte Carlo (MCMC): A Bayesian approach, offering uncertainty estimates but slower.\nSGD is often preferred for scalability, with updates like: $$ w_i \\leftarrow w_i - \\eta \\frac{\\partial L}{\\partial w_i}, \\quad v_i \\leftarrow v_i - \\eta \\frac{\\partial L}{\\partial v_i} $$\n\\(\\eta\\): Learning rate. Input and Output:\nInput: Sparse feature vector \\(\\mathbf{x}\\) (e.g., one-hot encoded user ID, item ID, context). Output: Predicted score (e.g., click probability, rating). Real-World Example:\nAt Meta Ads, FM might model user-ad interactions by combining user demographics (e.g., age, location), ad features (e.g., category, keyword), and context (e.g., device type), predicting the likelihood of a click to optimize ad placement.\nTakeaways:\nCaptures pairwise feature interactions. Scales well in sparse, high-dimensional data. Excels in CTR prediction and implicit feedback tasks. Features: Handles both explicit and implicit feedback, scales to high-dimensional sparse data, captures feature interactions without manual engineering.\nLimitations: Limited to pairwise interactions, misses higher-order patterns (e.g., user-item-context triplets), and assumes linear combinations, which may not capture deep non-linearities.\nLed to: Deep learning models like DeepFM (2017), which combine FM with neural networks to learn higher-order interactions.\n4.2 Gradient Boosted Trees (XGBoost) XGBoost, introduced by Chen \u0026 Guestrin in 2016, leverages an ensemble of decision trees for ranking tasks in RecSys, excelling in search (e.g., Bing) and online advertising. It addresses MF and FM’s limitations in capturing non-linear patterns, using second-order optimization for efficiency and scalability.\nHow It Works:\nXGBoost builds a sequence of decision trees, each correcting the errors of the previous ones. For RecSys, it’s often used in learning-to-rank tasks (e.g., ranking search results or videos). Features include user behavior (clicks, watch time), item metadata (category, tags), and context (time, device). The prediction is:\n\\( \\hat{r}_{ui} = p_u^T q_i \\)\n\\(T\\): Number of trees. \\(f_t\\): Output of the \\(t\\)-th tree for input \\(\\mathbf{x}_i\\). Loss Function:\nXGBoost optimizes a regularized objective:\n$$ L = \\sum_{i=1}^{N} l(y_i, \\hat{y}i) + \\sum{t=1}^{T} \\Omega(f_t) $$\n\\(l(y_i, \\hat{y}_i)\\): Loss, e.g., squared loss for regression, or pairwise ranking loss (e.g., LambdaRank). \\(\\Omega(f_t) = \\gamma T + \\frac{1}{2} \\lambda \\| \\mathbf{w}_t \\|_2^2\\): Regularization, where \\(T\\) is the number of leaves, and \\(\\mathbf{w}_t\\) are leaf weights. For ranking, it uses pairwise loss:\n$$ L = \\sum_{(i,j) \\in P} \\log(1 + \\exp(-(\\hat{y}_i - \\hat{y}_j))) $$\nwhere \\(P\\) is the set of relevant-irrelevant pairs. XGBoost uses a second-order approximation:\n$$ L \\approx \\sum_{i=1}^N \\left[ l(y_i, \\hat{y}_i^{(t-1)}) + g_i f_t(\\mathbf{x}_i) + \\frac{1}{2} h_i f_t(\\mathbf{x}_i)^2 \\right] + \\Omega(f_t) $$\n\\(g_i = \\frac{\\partial l}{\\partial \\hat{y}_i^{(t-1)}}\\), \\(h_i = \\frac{\\partial^2 l}{\\partial (\\hat{y}_i^{(t-1)})^2}\\). This enables efficient tree construction, with features like column sampling and parallel processing for scalability.\nInput and Output:\nInput: Feature vectors (numerical or categorical, e.g., user watch time, item category). Output: Ranking scores for items. Real-World Example:\nAt Bing, XGBoost ranks search results by modeling features like query relevance, user click history, and page quality, ensuring the most relevant results appear at the top.\nKey Takeaways (XGBoost in 3 Points):\nCaptures non-linear patterns via tree ensembles. Robust to missing data and interpretable (feature importance). Excels in ranking tasks like search and ads. Features: Captures non-linear patterns, handles mixed feature types via tree splits, robust to missing data, interpretable (feature importance scores).\nLimitations: Struggles with extremely high-dimensional sparse data (e.g., one-hot encoded user/item IDs), computationally expensive for large datasets, requires careful feature engineering.\nLed to: Neural Collaborative Filtering (NCF) and other deep learning methods that automatically learn feature representations.\n6. Conclusion Part 2 has taken us from MF to FM’s flexible feature interactions and XGBoost’s non-linear ranking power. FM excels in CTR prediction by modeling sparse, implicit data, while XGBoost dominates ranking tasks with its ability to capture complex patterns. However, both methods hit limits—FM’s pairwise focus and XGBoost’s reliance on feature engineering couldn’t keep up with the complexity of modern RecSys. In Part 3, we’ll explore how deep learning overcomes these limitations, tackling unstructured data like images and text with models like Neural Collaborative Filtering and DeepFM, which leverage neural networks for higher-order interactions and automated feature learning.\n7. References Rendle, S. (2010). Factorization Machines. 2010 IEEE International Conference on Data Mining (ICDM), 995-1000. https://www.ismll.uni-hildesheim.de/pub/pdfs/Rendle2010FM.pdf Chen, T., \u0026 Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. arXiv preprint arXiv:1603.02754. https://arxiv.org/pdf/1603.02754 He, X., Zhang, H., Kan, M.-Y., \u0026 Chua, T.-S. (2017). Fast Matrix Factorization for Online Recommendation with Implicit Feedback. Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ’17), 549–558. https://dl.acm.org/doi/10.1145/3459637.3482492 ",
+  "wordCount" : "1621",
+  "inLanguage": "en",
+  "datePublished": "2025-03-11T00:00:00Z",
+  "dateModified": "2025-03-11T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Abdullah Al Mamun"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://newabdullah.com/posts/the-evaluation-of-recsys-part2/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Abdullah Al Mamun",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://newabdullah.com/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -99,7 +170,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Abdullah Al Mamun (Alt + H)">Abdullah Al Mamun</a>
+            <a href="https://newabdullah.com/" accesskey="h" title="Abdullah Al Mamun (Alt + H)">Abdullah Al Mamun</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -130,13 +201,13 @@
             </div>
         <ul id="menu">
             <li>
-            <a href="http://localhost:1313/archives"
+            <a href="https://newabdullah.com/archives"
                title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-            <a href="http://localhost:1313/about"
+            <a href="https://newabdullah.com/about"
                title="About Me">
                     <span>About Me</span>
                 </a>
@@ -166,19 +237,13 @@
                 </a>
             </li>
             <li>
-            <a href="http://localhost:1313/gallery/"
-               title="Gallery">
-                    <span>Gallery</span>
-                </a>
-            </li>
-            <li>
-            <a href="http://localhost:1313/contact"
+            <a href="https://newabdullah.com/contact"
                title="Contact">
                     <span>Contact</span>
                 </a>
             </li>
             <li>
-            <a href="http://localhost:1313/search/"
+            <a href="https://newabdullah.com/search/"
                title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
@@ -387,10 +452,10 @@ At Bing, XGBoost ranks search results by modeling features like query relevance,
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/recommendation-systems/">Recommendation Systems</a></li>
-      <li><a href="http://localhost:1313/tags/machine-learning/">Machine Learning</a></li>
-      <li><a href="http://localhost:1313/tags/factorization-machines/">Factorization Machines</a></li>
-      <li><a href="http://localhost:1313/tags/xgboost/">Xgboost</a></li>
+      <li><a href="https://newabdullah.com/tags/recommendation-systems/">Recommendation Systems</a></li>
+      <li><a href="https://newabdullah.com/tags/machine-learning/">Machine Learning</a></li>
+      <li><a href="https://newabdullah.com/tags/factorization-machines/">Factorization Machines</a></li>
+      <li><a href="https://newabdullah.com/tags/xgboost/">Xgboost</a></li>
     </ul>
   </footer>
 
@@ -404,16 +469,16 @@ At Bing, XGBoost ranks search results by modeling features like query relevance,
     </div>
   
   <div class="share-buttons">
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fposts%2Fthe-evaluation-of-recsys-part2%2F" target="_blank" title="Share on Facebook">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnewabdullah.com%2Fposts%2Fthe-evaluation-of-recsys-part2%2F" target="_blank" title="Share on Facebook">
       <i class="fab fa-facebook-f"></i>
     </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A1313%2Fposts%2Fthe-evaluation-of-recsys-part2%2F" target="_blank" title="Share on LinkedIn">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fnewabdullah.com%2Fposts%2Fthe-evaluation-of-recsys-part2%2F" target="_blank" title="Share on LinkedIn">
       <i class="fab fa-linkedin-in"></i>
     </a>
-    <a href="mailto:?subject=The&#43;Evaluation&#43;of&#43;RecSys&#43;-&#43;Part&#43;2&body=http%3A%2F%2Flocalhost%3A1313%2Fposts%2Fthe-evaluation-of-recsys-part2%2F" title="Share via Email">
+    <a href="mailto:?subject=The&#43;Evaluation&#43;of&#43;RecSys&#43;-&#43;Part&#43;2&body=https%3A%2F%2Fnewabdullah.com%2Fposts%2Fthe-evaluation-of-recsys-part2%2F" title="Share via Email">
       <i class="fas fa-envelope"></i>
     </a>
-    <a href="https://x.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fposts%2Fthe-evaluation-of-recsys-part2%2F" target="_blank" title="Share on X">
+    <a href="https://x.com/intent/tweet?url=https%3A%2F%2Fnewabdullah.com%2Fposts%2Fthe-evaluation-of-recsys-part2%2F" target="_blank" title="Share on X">
       <svg style="height: 20px; width: 20px; fill: white;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path d="M17.53 2H21l-7.22 8.24L23 22h-6.38l-4.99-6.03L5.8 22H2l7.66-8.75L1 2h6.5l4.44 5.37L17.53 2Zm-1.1 18h1.74L8.61 4H6.75l9.68 16Z"/>
       </svg>
@@ -446,21 +511,14 @@ At Bing, XGBoost ranks search results by modeling features like query relevance,
     <div class="posts card-grid">
       
       
-      <a href="http://localhost:1313/posts/ai-agent/" class="post-card">
-        <div class="card-body">
-          <h3>AI Agent with MCP: Smart Meeting Scheduler</h3>
-          <span class="post-date">Apr 11, 2025 — 12:00 AM</span>
-        </div>
-      </a>
-      
-      <a href="http://localhost:1313/posts/the-evaluation-of-recsys-part-3/" class="post-card">
+      <a href="https://newabdullah.com/posts/the-evaluation-of-recsys-part-3/" class="post-card">
         <div class="card-body">
           <h3>The Evaluation of RecSys - Part 3</h3>
           <span class="post-date">Mar 12, 2025 — 12:00 AM</span>
         </div>
       </a>
       
-      <a href="http://localhost:1313/posts/the-evaluation-of-recsys---part-1/" class="post-card">
+      <a href="https://newabdullah.com/posts/the-evaluation-of-recsys---part-1/" class="post-card">
         <div class="card-body">
           <h3>The Evaluation of RecSys - Part 1</h3>
           <span class="post-date">Mar 1, 2025 — 12:00 AM</span>
